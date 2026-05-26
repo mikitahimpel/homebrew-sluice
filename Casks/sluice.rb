@@ -1,13 +1,13 @@
 cask "sluice" do
-  version "0.1.2"
-  sha256 "bb94642805ff1d7b3da349094e6dc4573c4fd0cde0ed1e199b27f4654feb7822"
+  version "0.1.3"
+  sha256 "7cfdada6407e85b7d53cb926bcf960adfa0e9c64febe939960497a340db6533c"
 
   url "https://github.com/mikitahimpel/sluice/releases/download/v#{version}/Sluice-#{version}.zip"
   name "Sluice"
   desc "URL router that opens links from different source apps in different browsers"
   homepage "https://github.com/mikitahimpel/sluice"
 
-  depends_on macos: ">= :ventura"
+  depends_on macos: ">= :sonoma"
 
   app "Sluice.app"
 
