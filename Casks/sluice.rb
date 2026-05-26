@@ -1,6 +1,6 @@
 cask "sluice" do
-  version "0.1.0"
-  sha256 "890fc76bd1594e0fc71b89dbe4c088b2478525e96704706055a0145b3f68e882"
+  version "0.1.1"
+  sha256 "dcb8ee4e742deeed58b98c04e2570477c54e038af091a437873ddbe095a27679"
 
   url "https://github.com/mikitahimpel/sluice/releases/download/v#{version}/Sluice-#{version}.zip"
   name "Sluice"
